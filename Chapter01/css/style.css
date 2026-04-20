@@ -1,0 +1,27 @@
+/* Stylesheet by Adan Amer, 2026 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Style headings */
+h1 {
+    color: darkblue;    /* Font color */
+    font-size: 32px;      /* Font size */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Style paragraphs */
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;  /* Makes it visible */
+    border: 2px solid black;
+    margin-top: 20px;
+}

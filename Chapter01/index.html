@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title></title>
+
+        <!--put your external stylesheet links here-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--[if IE<9]>
+            <link rel="stylesheet" href="css/style.ie.css">
+        <![endif]-->
+        
+        <!--you can also place internal styles here
+        place these within <style> tags-->
+        
+        <style>
+        #mydiv {
+            background-color: red;
+            width: 80%;
+            margin: 0 auto;
+            height: 100px;
+        }
+        </style>
+        
+    </head>
+    <body>
+        <div id="mymap">
+            This is where my map will be.
+        </div>
+        <script>
+            var mydiv = document.getElementById("mydiv");
+            mydiv.addEventListener("click", function(){
+                alert("Hello World!");
+            });
+        </script>
+    </body>
+
+    <h1>The First Part of This Project</h1>
+
+    <h2>About This Project</h2>
+    <p>
+        This project seeks to create an interactive map using HTML, CSS, and JavaScript about the
+        historical extent of water bodies within the San Joaquin Valley. The map will be based on data 
+        from satellites and will allow users to explore the changes in water bodies over time.
+    </p>
+
+    <h2>Map Description</h2>
+    <p>
+        The map below will show the historical extent of water bodies within the San Joaquin Valley.
+        Additional features will be added in future steps.
+    </p>
+
+    <!-- Map container -->
+    <div id="map" style="width: 100%; height: 500px; border: 1px solid black;">
+        <!-- The web map will be inserted here later -->
+    </div>
+
+</html>

@@ -1,0 +1,1 @@
+/* JS by Adan Amer, 2026 */
